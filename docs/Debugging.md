@@ -24,7 +24,7 @@ To access the in-app developer menu:
 Selecting `Reload` (or pressing `⌘ + r` in the iOS simulator) will reload the JavaScript that powers your application. If you have added new resources (such as an image to `Images.xcassets` on iOS or to `res/drawable` folder on Android) or modified any native code (Objective-C/Swift code on iOS or Java/C++ code on Android), you will need to re-build the app for the changes to take effect.
 
 ### Chrome Developer Tools
-To debug the JavaScript code in Chrome, select `Debug in Chrome` from the developer menu. This will open a new tab at [http://localhost:8081/debugger-ui](http://localhost:8081/debugger-ui).
+To debug the JavaScript code in Chrome, select `Debug JavaScript` from the developer menu. This will open a new tab at [http://localhost:8081/debugger-ui](http://localhost:8081/debugger-ui).
 
 In Chrome, press `⌘ + option + i` or select `View` → `Developer` → `Developer Tools` to toggle the developer tools console. Enable [Pause On Caught Exceptions](http://stackoverflow.com/questions/2233339/javascript-is-there-a-way-to-get-chrome-to-break-on-all-errors/17324511#17324511) for a better debugging experience.
 
